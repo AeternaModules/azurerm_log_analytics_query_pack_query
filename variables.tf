@@ -1,6 +1,6 @@
-variable "log_analytics_query_pack_querys" {
+variable "log_analytics_query_pack_queries" {
   description = <<EOT
-Map of log_analytics_query_pack_querys, attributes below
+Map of log_analytics_query_pack_queries, attributes below
 Required:
     - body
     - display_name

@@ -1,5 +1,5 @@
-resource "azurerm_log_analytics_query_pack_query" "log_analytics_query_pack_querys" {
-  for_each = var.log_analytics_query_pack_querys
+resource "azurerm_log_analytics_query_pack_query" "log_analytics_query_pack_queries" {
+  for_each = var.log_analytics_query_pack_queries
 
   body                     = each.value.body
   display_name             = each.value.display_name
